@@ -1,0 +1,71 @@
+body {
+    background-image: url('vecteezy_beautiful-ariel-shot-of-a-tropical-beach-with-wavs-breaking_26401388.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.login-container {
+    background-color: rgba(51, 60, 109, 0.3);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+.login-container img {
+    max-width: 150px;
+    margin-bottom: 30px;
+}
+.form-control {
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+.form-control:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: #007bff;
+    box-shadow: none;
+    color: #fff;
+}
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+.btn-google {
+    background-color: #ea4335;
+    border-color: #ea4335;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.btn-google:hover {
+    background-color: #c7372b;
+    border-color: #c7372b;
+}
+.btn-link {
+    color: #007bff;
+    text-decoration: none;
+}
+.btn-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+.footer-text {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.8);
+}
